@@ -35,11 +35,7 @@ app.post('/dev', function(req,res){
   const dates = []
   dates.push(inData)
   stringData = JSON.stringify(dates)
-  fs.writeFileSync('dates.json', stringData, function(){
-    console.log("Saved " + stringData);
-  })
-})
-
+  fs.writeFileSync('dates.json', stringData)
 
 app.listen(port, localhost, function(){
   console.log("Server Status: Functional");

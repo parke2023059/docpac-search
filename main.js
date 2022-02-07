@@ -1,12 +1,18 @@
 const express = require('express');
 const app = express()
 app.set('view engine', 'ejs')
+const csvToJson = require('convert-csv-to-json');
 const port = 1234
 const localhost = '127.0.0.1'
 const fs = require('fs');
 app.use(express.urlencoded({extended:true}))
 
 
+
+let json = csvToJson.getJsonFromCsv("changes.csv");
+for(let i=0; i<json.length;i++){
+    console.log(json[i]);
+}
 
 
 app.get('/', function(req,res){

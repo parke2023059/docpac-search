@@ -11,24 +11,24 @@ app.use(express.urlencoded({extended:true}))
 
 app.get('/', function(req,res){
   res.render('index.ejs')
-})
+})//homepage
 
 app.get('/getinfo', function(req,res){
   res.render('getData.ejs')
-})
+})//this is the page that collects information from docpacs
 
 app.get('/adddata', function(req,res){
   res.render('addData.ejs')
-})
+})//where you write to *something*
 
 app.get('/dates', function(req,res){
   res.render('datesList.ejs')
-})
+})//docpac directory
 
 
 app.get('/dev', function(req,res){
   res.render('dev.ejs')
-})
+})//inputs docpacs to directory
 
 /*app.post('/dev', function(req,res){
   const inData = req.body.addDate

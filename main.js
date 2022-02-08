@@ -7,6 +7,9 @@ const localhost = '127.0.0.1'
 const fs = require('fs');
 app.use(express.urlencoded({extended:true}))
 
+let inputfile = 'changes.csv';
+let outputfile = 'changes.json';
+csvToJson.generateJsonFileFromCsv(inputfile,outputfile);
 
 
 let json = csvToJson.getJsonFromCsv("changes.csv");

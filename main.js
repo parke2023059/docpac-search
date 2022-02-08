@@ -11,11 +11,22 @@ let inputfile = 'changes.csv';
 let outputfile = 'changes.json';
 csvToJson.generateJsonFileFromCsv(inputfile,outputfile);
 
-
-let json = csvToJson.getJsonFromCsv("changes.csv");
-for(let i=0; i<json.length;i++){
-    console.log(json[i]);
+function conversion(inputfile, outputfile) {
+  let input = inputfile;
+  let output = outputfile;
+  csvToJson.generateJsonFileFromCsv(input,output);
+  console.log('wrote to file')
 }
+
+conversion('Docpac Data.csv', 'docpacdata.json')
+
+conversion('goals.csv', 'goals.json')
+
+conversion('inc doc.csv', 'incdoc.json')
+
+conversion('req doc.csv', 'reqdoc.json')
+
+conversion('changes.csv', 'changes.json')
 
 
 app.get('/', function(req,res){

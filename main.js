@@ -25,7 +25,6 @@ app.get('/dates', function(req,res){
   res.render('datesList.ejs')
 })//docpac directory
 
-
 app.get('/dev', function(req,res){
   res.render('dev.ejs')
 })//inputs docpacs to directory

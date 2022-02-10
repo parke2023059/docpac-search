@@ -50,6 +50,26 @@ app.get('/dev', function(req,res){
   res.render('dev.ejs')
 })
 
+app.get('/requiredDocumentation', function(req,res) {
+  res.render('ReqDoc.ejs')
+})
+
+app.get('/goals', function(req,res) {
+  res.render('goals.ejs')
+})
+
+app.get('/changes', function(req,res) {
+  res.render('changes.ejs')
+})
+
+app.get('/events', function(req,res) {
+  res.render('events.ejs')
+})
+
+app.get('/IncludedDocumentation', function(req,res) {
+  res.render('IncDoc.ejs')
+})
+
 /*app.post('/dev', function(req,res){
   const inData = req.body.addDate
   const dates = []

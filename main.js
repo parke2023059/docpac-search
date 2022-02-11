@@ -29,14 +29,7 @@ app.get('/dev', function(req,res){
   res.render('dev.ejs')
 })
 
-app.get('/addgoals', function(req,res){
-  res.render('goals.ejs')
-})
 
-
-app.get('/incdoc', function(req,res){
-  res.render('includedDocumentation.ejs')
-})
 
 
 

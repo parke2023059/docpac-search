@@ -50,14 +50,14 @@ app.get('/dev', function(req,res){
   res.render('dev.ejs')
 })
 
-})
-
 /*app.post('/dev', function(req,res){
   const inData = req.body.addDate
   const dates = []
   dates.push(inData)
   stringData = JSON.stringify(dates)
   fs.writeFileSync('dates.json', stringData)*/
+
+
 
 app.listen(port, localhost, function(){
   console.log("Server Status: Functional");

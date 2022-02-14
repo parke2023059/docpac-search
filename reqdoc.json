@@ -1,0 +1,236 @@
+[
+ {
+  "Date,Type,AssignmentName": "\"\"\"Aug27\"\"\",pg. 2,Signed Syllabus"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Aug27\"\"\",Printed,Javascript Initial Assessment "
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Sep3\"\"\",pg. 2,Build A Webserver Using nodejs"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Sep3\"\"\",printed,Github practice assignment"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Sep10\"\"\",printed,Notebook 1: Initialize Nodejs Project"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Sep10\"\"\",printed,Notebook 2: Nodejs HTTP Server"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Sep10\"\"\",printed,Portfolio 1: Nodejs HTTP Server"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Sep17\"\"\",printed,Express Middleware"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Sep17\"\"\",pg. 2,ExpressJS Team Website"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Sep17\"\"\",printed,Updated Version of this DocPac"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Sep24\"\"\",Seen by teacher,Upgrade Team Website with EJS"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Sep24\"\"\",printed,Notebook 4: ReactJS"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Sep24\"\"\",code academy,\"Codecademy �Learn Javascript� course, �Introduction� Chapter\""
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Oct1\"\"\",printed,Notebook 1: Initializing NodeJS Project"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Oct1\"\"\",printed,�Notebook 2: NodeJS HTTP Server"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Oct1\"\"\",printed,Notebook 3: Using ExpressJS with NodeJS"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Oct1\"\"\",printed,Notebook 4: Using EJS with ExpressJS"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Oct1\"\"\",seen by teacher,Team trello board"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Oct1\"\"\",code academy,\"Codecademy �Learn Javascript� course, �Conditionals� Chapter\""
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Oct8\"\"\",Printed,Team Documentation: Notebook Entry Format"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Oct8\"\"\",printed,Analysis: Team Composition"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Oct8\"\"\",seen by teacher,Team Website Upgrade: Load Team Profiles from JSON"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Oct8\"\"\",seen by teacher,Team Website Upgrade: Save Query Params to JSON"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Oct8\"\"\",code academy,\"Codecademy �Learn Javascript� course, �Functions� Chapter\""
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Oct15\"\"\",printed,Notebook 5: HTML Submit Form Data"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Oct15\"\"\",printed,Notebook 6: ExpressJS POST Requests"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Oct15\"\"\",seen by teacher,Team Website Upgrade: Record Comments with HTML Form"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Oct15\"\"\",code academy,Codecademy: Everything assigned in previous DocPacs"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Oct29\"\"\",printed,Notebooks 1 - 6"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Oct29\"\"\",printed,DocPacs Aug17 � Oct29"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Oct29\"\"\",code academy,\"Codecademy: Learn Javascript, all chapters up to Scopes\""
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Nov5\"\"\",printed,Personal Improvement Plan"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Nov5\"\"\",code academy,\"Codecademy: Learn Javascript, Arrays. Lesson, Project, and Quiz\""
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Nov12\"\"\",printed,Exam Preparation Plan"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Nov12\"\"\",code academy,\"Codecademy: Learn Javascript, Loops. Lesson, Project, and Quiz\""
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Nov19\"\"\",pg. 2,Exam Preparation Progress Report"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Nov19\"\"\",code academy,\"Codecademy: Learn Javascript, Iterators. Lesson, Lesson, Project, and Quiz\""
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Dec3\"\"\",printed,JS Bootcamp Key Take-Aways"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Dec3\"\"\",download, All four days of JS Bootcamp 2122 accepted as pull requests into csmith1188/jsbootcamp2122 on GitHub.com"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Dec3\"\"\",code academy,\" Codecademy: Learn Javascript, Objects. Lesson, Lesson, Project, Project, and Quiz\""
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Dec10\"\"\",pg. 3,Reflection"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Dec10\"\"\",pg. 2,Exam Preparation Progress Report"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Dec10\"\"\",pg. 2,Team Project Goal"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Dec10\"\"\",printed,JS Challenge Pt. 1"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Dec10\"\"\",seen by teacher,Show instructor your Team Project�s goal being met"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Dec10\"\"\",download,Get your JS Bootcamp fork accepted as a Pull Request to the upstream"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Dec10\"\"\",code academy,Codecademy: All Codecademy complete (DocPac rejected if not complete!)"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Dec17\"\"\",pg. 3,Reflection"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Dec17\"\"\",pg. 2,Exam Preparation Progress Report"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Dec17\"\"\",pg. 2,Team Project Goal"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Dec17\"\"\",printed,JS Challenge Pt. 2"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Dec17\"\"\",printed,JS Bootcamp (Dec15) Canvas + Iterators"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Dec22\"\"\",pg. 3,Reflection"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Dec22\"\"\",pg. 2,Exam Preparation Progress Report"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Dec22\"\"\",pg. 2,Team Project Goal"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Dec22\"\"\",printed,JS Bootcamp Flow Chart"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Dec22\"\"\",printed,Winter Break Schedule"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Jan7\"\"\",pg. 3,Reflection"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Jan7\"\"\",pg. 2,Exam Preparation Progress Report"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Jan7\"\"\",pg. 2,Team Project Goal"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Jan7\"\"\",printed,Lesson Key Takeaways x 3"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Jan7\"\"\",printed,JS Challenges Pt. 3"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Jan14\"\"\",pg. 2,Exam Preparation Progress Report"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Jan14\"\"\",pg. 3,Reflection"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Jan14\"\"\",printed,Design a Routine"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Jan14\"\"\",printed,Lesson Key Takeaways x 3"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Jan14\"\"\",printed,JS Challenges Pt. 4"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Jan14\"\"\",printed,JS Challenges Pt. 5"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Jan14\"\"\",seen by teacher,Team Project Presentation"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Jan21\"\"\",pg. 3,Reflection"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Jan28\"\"\",printed,Lesson Key Take-aways"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Jan28\"\"\",printed,Reward System Brainstorm"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Jan28\"\"\",pg. 3,Reflection"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Feb4\"\"\",printed,Single: Nocti Flowchart Preparation"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Feb4\"\"\",download,Teams: DocPac Digitalization"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Feb4\"\"\",printed,Pairs: Javascript Challenge #7"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Feb4\"\"\",printed,Pairs: Javascript Challenge #8"
+ },
+ {
+  "Date,Type,AssignmentName": "\"\"\"Feb4\"\"\",pg. 3,Reflection"
+ }
+]

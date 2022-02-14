@@ -1,0 +1,254 @@
+[
+ {
+  "Date,Goals": "\"\"\"Aug27\"\"\", Establish classroom expectations for Year �21-�22"
+ },
+ {
+  "Date,Goals": "\"\"\"Aug27\"\"\",Review knowledge of basic programming"
+ },
+ {
+  "Date,Goals": "\"\"\"Aug27\"\"\",Assess knowledge of Javascript"
+ },
+ {
+  "Date,Goals": "\"\"\"Sep03\"\"\",Understand different ways of sharing files and data with teammates"
+ },
+ {
+  "Date,Goals": "\"\"\"Sep03\"\"\",� Review using github to complete projects together"
+ },
+ {
+  "Date,Goals": "\"\"\"Sep03\"\"\",Understand how basic nodejs applications work"
+ },
+ {
+  "Date,Goals": "\"\"\"Sep10\"\"\",\"Successfully fork, clone, edit, commit, push, and pull request the DocPac git repository on GitHub\""
+ },
+ {
+  "Date,Goals": "\"\"\"Sep10\"\"\",Begin compiling notebok by writing instructions for initialising a Nodejs project and creating an HTTP server in Nodejs"
+ },
+ {
+  "Date,Goals": "\"\"\"Sep10\"\"\",Begin compiling your portfilio by printing out your Nodejs HTTP Server code"
+ },
+ {
+  "Date,Goals": "\"\"\"Sep17\"\"\",Import ExpressJS middleware into your Nodejs NTTP server project"
+ },
+ {
+  "Date,Goals": "\"\"\"Sep17\"\"\",\"Create \"\"endpoints\"\" users can navigate to in ExpressJS\""
+ },
+ {
+  "Date,Goals": "\"\"\"Sep17\"\"\",serve HTML files with CSS stylesheets and JavaScript Files from ExpressJS"
+ },
+ {
+  "Date,Goals": "\"\"\"Sep17\"\"\",Create a complete website using ExpressJS and the goals above"
+ },
+ {
+  "Date,Goals": "\"\"\"Sep17\"\"\",\"Learn how to update, replace missing, and print DocPacs\""
+ },
+ {
+  "Date,Goals": "\"\"\"Sep17\"\"\",Create a schedule and track it over time"
+ },
+ {
+  "Date,Goals": "\"\"\"Sep24\"\"\",Successfully use EJS to create templates to serve with ExpressJS(change the output of a webpage before sending to the user)"
+ },
+ {
+  "Date,Goals": "\"\"\"Sep24\"\"\",Use repository branching to organize complex Git projects"
+ },
+ {
+  "Date,Goals": "\"\"\"Sep24\"\"\",Review the basics of javascript and prepare to study the language"
+ },
+ {
+  "Date,Goals": "\"\"\"Oct1\"\"\",consolidate and organise all notebook tuitorials to this point"
+ },
+ {
+  "Date,Goals": "\"\"\"Oct1\"\"\",Learn how to use KanBan boards to manage projects"
+ },
+ {
+  "Date,Goals": "\"\"\"Oct1\"\"\",be able to create an ExpressJS HTTP server from memory"
+ },
+ {
+  "Date,Goals": "\"\"\"Oct8\"\"\",Establish and document standards for NoteBook entires for your team"
+ },
+ {
+  "Date,Goals": "\"\"\"Oct8\"\"\",Create JSON files to store javascript Objects on the hard disk"
+ },
+ {
+  "Date,Goals": "\"\"\"Oct8\"\"\",Read JSON files in NodeJS as parse into a javascript object"
+ },
+ {
+  "Date,Goals": "\"\"\"Oct8\"\"\",Convert javascript objects to a string to save in a JSON file"
+ },
+ {
+  "Date,Goals": "\"\"\"Oct8\"\"\",Use data from a JSON file to populate EJS template with data"
+ },
+ {
+  "Date,Goals": "\"\"\"Oct8\"\"\",Read query paramaters with expressJS"
+ },
+ {
+  "Date,Goals": "\"\"\"Oct8\"\"\",Save data passed by query paramaters to a JSON file"
+ },
+ {
+  "Date,Goals": "\"\"\"Oct 15\"\"\",Ensure your CoDecademy is up to date"
+ },
+ {
+  "Date,Goals": "\"\"\"Oct 15\"\"\",Analyze Meritocracy and Team Composition"
+ },
+ {
+  "Date,Goals": "\"\"\"Oct 15\"\"\",Understand the difference between HTTP GET and HTTP POST requests"
+ },
+ {
+  "Date,Goals": "\"\"\"Oct 15\"\"\",Accept and handle POST requests and parameters in ExpressJS"
+ },
+ {
+  "Date,Goals": "\"\"\"Oct 15\"\"\",Send POST requet w/ parameters via Postman"
+ },
+ {
+  "Date,Goals": "\"\"\"Oct 15\"\"\",Create an HTML form that can submit form data as a POST request"
+ },
+ {
+  "Date,Goals": "\"\"\"Oct22\"\"\",Prepare a Cover Letter and Resumes for your team"
+ },
+ {
+  "Date,Goals": "\"\"\"Oct22\"\"\",Prepare for a group interview and receive your choice team project"
+ },
+ {
+  "Date,Goals": "\"\"\"Oct22\"\"\",\"complete the \"\"scope\"\" chaper for coDecademy \"\"Learn Javascript\"\" course \""
+ },
+ {
+  "Date,Goals": "\"\"\"Oct22\"\"\",Upgrade Team website for show comments left by others"
+ },
+ {
+  "Date,Goals": "\"\"\"Oct29\"\"\",Prepare for DocPac binder audit"
+ },
+ {
+  "Date,Goals": "\"\"\"Oct29\"\"\",Prepare for Team Project interviews"
+ },
+ {
+  "Date,Goals": "\"\"\"Oct29\"\"\",Prepare for nodeJS/ExressJS/EJS exam"
+ },
+ {
+  "Date,Goals": "\"\"\"Nov5\"\"\",learn to send professional emails"
+ },
+ {
+  "Date,Goals": "\"\"\"Nov5\"\"\",develop a personal improvement plan"
+ },
+ {
+  "Date,Goals": "\"\"\"Nov5\"\"\",learn about contracts"
+ },
+ {
+  "Date,Goals": "\"\"\"Nov5\"\"\",pass the expressjs exam"
+ },
+ {
+  "Date,Goals": "\"\"\"Nov5\"\"\",continue CoDecademy"
+ },
+ {
+  "Date,Goals": "\"\"\"Nov12\"\"\",receive projects and sign contracts"
+ },
+ {
+  "Date,Goals": "\"\"\"Nov12\"\"\",Analyze project requirements and design an MVP"
+ },
+ {
+  "Date,Goals": "\"\"\"Nov12\"\"\",\"Break plans down in to smaller pieces, set goals and timelines\""
+ },
+ {
+  "Date,Goals": "\"\"\"Nov12\"\"\",Begin preparing for Quarter 2 exam"
+ },
+ {
+  "Date,Goals": "\"\"\"Nov19\"\"\",Design a n MVP"
+ },
+ {
+  "Date,Goals": "\"\"\"Nov19\"\"\",Break MVP down in to steps and assign on a KanBan board"
+ },
+ {
+  "Date,Goals": "\"\"\"Nov19\"\"\",Schedule meetings"
+ },
+ {
+  "Date,Goals": "\"\"\"Nov19\"\"\",Continue CoDecademy"
+ },
+ {
+  "Date,Goals": "\"\"\"Nov19\"\"\",Progress Examp Preperation Plan"
+ },
+ {
+  "Date,Goals": "\"\"\"Nov19\"\"\",Produce first prototype"
+ },
+ {
+  "Date,Goals": "\"\"\"Dec3\"\"\",Bootcamp Javascript every day to build coding skills"
+ },
+ {
+  "Date,Goals": "\"\"\"Dec10\"\"\",Use the skills you built in JS Bootcamp to hit your first Team Project goal"
+ },
+ {
+  "Date,Goals": "\"\"\"Dec10\"\"\",Practice writing JS Syntax to solve problems"
+ },
+ {
+  "Date,Goals": "\"\"\"Dec10\"\"\",Finish CoDecademy"
+ },
+ {
+  "Date,Goals": "\"\"\"Dec10\"\"\",Wrap up JS Bootcamp git repos"
+ },
+ {
+  "Date,Goals": "\"\"\"Dec17\"\"\",submit coDecademy screenshots in schoology"
+ },
+ {
+  "Date,Goals": "\"\"\"Dec17\"\"\",analyze comments and code review on issues and pull requests"
+ },
+ {
+  "Date,Goals": "\"\"\"Dec17\"\"\",submit a pull request to your team project that completes a set goal"
+ },
+ {
+  "Date,Goals": "\"\"\"Dec17\"\"\",configure gitignore and readme.md"
+ },
+ {
+  "Date,Goals": "\"\"\"Dec17\"\"\",\"determine when to use for, forin, forof, foreach()\""
+ },
+ {
+  "Date,Goals": "\"\"\"Dec17\"\"\",Learn basic Javascript graphics generation"
+ },
+ {
+  "Date,Goals": "\"\"\"Dec22\"\"\",Print and submit/resubmit all missing DocPacs or DocPacs with missing documents"
+ },
+ {
+  "Date,Goals": "\"\"\"Dec22\"\"\",Winter Break Schedule"
+ },
+ {
+  "Date,Goals": "\"\"\"Jan07\"\"\",Exanube reqyurenebts fir tge /bictu"
+ },
+ {
+  "Date,Goals": "\"\"\"Jan07\"\"\",Develop a plan to pass the performance NOctI"
+ },
+ {
+  "Date,Goals": "\"\"\"Jan07\"\"\",Practice the skills required to pass the Exam"
+ },
+ {
+  "Date,Goals": "\"\"\"Jan14\"\"\",Develop a Daily Routine"
+ },
+ {
+  "Date,Goals": "\"\"\"Jan14\"\"\",Design a flow chart for the Exam"
+ },
+ {
+  "Date,Goals": "\"\"\"Jan14\"\"\",Practice the skills required to pass the Exam"
+ },
+ {
+  "Date,Goals": "\"\"\"Jan14\"\"\",Present Team Projects to Teacher"
+ },
+ {
+  "Date,Goals": "\"\"\"Jan21\"\"\",prepare for exam"
+ },
+ {
+  "Date,Goals": "\"\"\"Jan21\"\"\",pass exam"
+ },
+ {
+  "Date,Goals": "\"\"\"Jan28\"\"\",Review Reading/Writing to JSON files for Exam"
+ },
+ {
+  "Date,Goals": "\"\"\"Jan28\"\"\",Pass Exam"
+ },
+ {
+  "Date,Goals": "\"\"\"Jan28\"\"\",Prepare Docpac Binders for grading and review"
+ },
+ {
+  "Date,Goals": "\"\"\"Feb04\"\"\",understand requirements for flow charts for nOcti"
+ },
+ {
+  "Date,Goals": "\"\"\"Feb04\"\"\",solve a variety of javascript problems that may appear on the nOcti"
+ },
+ {
+  "Date,Goals": "\"\"\"Feb04\"\"\",prepare docpac for data analysis "
+ }
+]

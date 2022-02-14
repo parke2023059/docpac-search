@@ -5,7 +5,12 @@ const csvToJson = require('convert-csv-to-json');
 const port = 1234
 const localhost = '127.0.0.1'
 const fs = require('fs');
+const sqlite3 = require('sqlite3').verbose();
 app.use(express.urlencoded({extended:true}))
+
+let db = new sqlite3.Database('docpacinfo.db')
+
+let sql = `SELECT * FROM `
 
 let inputfile = 'changes.csv';
 let outputfile = 'changes.json';
@@ -33,42 +38,14 @@ app.get('/', function(req,res){
   res.render('index.ejs')
 })
 
-app.get('/getinfo', function(req,res){
-  res.render('getData.ejs')
-})
-
-app.get('/adddata', function(req,res){
-  res.render('addData.ejs')
-})
-
 app.get('/dates', function(req,res){
   res.render('datesList.ejs')
 })
-
 
 app.get('/dev', function(req,res){
   res.render('dev.ejs')
 })
 
-app.get('/requiredDocumentation', function(req,res) {
-  res.render('ReqDoc.ejs')
-})
-
-app.get('/goals', function(req,res) {
-  res.render('goals.ejs')
-})
-
-app.get('/changes', function(req,res) {
-  res.render('changes.ejs')
-})
-
-app.get('/events', function(req,res) {
-  res.render('events.ejs')
-})
-
-app.get('/IncludedDocumentation', function(req,res) {
-  res.render('IncDoc.ejs')
-})
 
 /*app.post('/dev', function(req,res){
   const inData = req.body.addDate

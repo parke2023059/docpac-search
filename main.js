@@ -8,9 +8,12 @@ const fs = require('fs');
 const sqlite3 = require('sqlite3').verbose();
 app.use(express.urlencoded({extended:true}))
 
-let db = new sqlite3.Database('docpacinfo.db')
-
-let sql = `SELECT * FROM `
+let db = new sqlite3.Database('DocPac.db', (err) => {
+  if (err) {
+    return console.log(err.message)
+  }
+  console.log('connected to database')
+})
 
 let inputfile = 'changes.csv';
 let outputfile = 'changes.json';
@@ -38,14 +41,30 @@ app.get('/', function(req,res){
   res.render('index.ejs')
 })
 
+app.get('/getinfo', function(req,res){
+  res.render('getData.ejs')
+})
+
+app.get('/adddata', function(req,res){
+  res.render('addData.ejs')
+})
+
+app.post('/adddata', function(req,res) {
+  res.render('addData.ejs')
+
+  if (req.body.dates && req.body.goals) {
+
+  }
+})
+
 app.get('/dates', function(req,res){
   res.render('datesList.ejs')
 })
 
+
 app.get('/dev', function(req,res){
   res.render('dev.ejs')
 })
-
 
 /*app.post('/dev', function(req,res){
   const inData = req.body.addDate
@@ -53,6 +72,8 @@ app.get('/dev', function(req,res){
   dates.push(inData)
   stringData = JSON.stringify(dates)
   fs.writeFileSync('dates.json', stringData)*/
+
+
 
 app.listen(port, localhost, function(){
   console.log("Server Status: Functional");

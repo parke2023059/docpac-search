@@ -57,7 +57,8 @@ app.post('/adddata', function(req,res) {
     goals: req.body.goals,
     inc_doc: req.body.inc_doc,
     req_doc: req.body.req_doc,
-    changes: req.body.changes
+    changes: req.body.changes,
+    events: req.body.events
   }
 
   if (data.date && data.goals) {

@@ -62,13 +62,24 @@ app.post('/adddata', function(req,res) {
   }
 
   if (data.date && data.goals) {
-    db.run(`INSERT INTO goals(Date, Goals) VALUES (?, ?)`, [data.date, `${data.goals}`], (err) => {
+    db.run(`INSERT INTO goals(field1, field2) VALUES (?, ?)`, [data.date, `${data.goals}`], (err) => {
       if (err) {
         return console.log(err.message);
       }
       console.log('data was added to goals in DB template')
     })
   }
+
+  if (data.date && data.inc_doc) {
+    db.run(`INSERT INTO goals(field1, field2) VALUES (?, ?)`, [data.date, `${data.goals}`], (err) => {
+      if (err) {
+        return console.log(err.message);
+      }
+      console.log('data was added to goals in DB template')
+    })
+  }
+
+
 })
 
 app.get('/dates', function(req,res){

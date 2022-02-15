@@ -12,11 +12,11 @@ app.get('/', function(req,res){
   res.render('index.ejs')
 })
 
-app.get('/getinfo', function(req,res){
+app.get('/get_info', function(req,res){
   res.render('getData.ejs')
 })
 
-app.get('/adddata', function(req,res){
+app.get('/add_data', function(req,res){
   res.render('addData.ejs')
 })
 
@@ -28,10 +28,6 @@ app.get('/dates', function(req,res){
 app.get('/dev', function(req,res){
   res.render('dev.ejs')
 })
-
-
-
-
 
 app.listen(port, localhost, function(){
   console.log("Server Status: Functional");

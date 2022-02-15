@@ -76,5 +76,5 @@ app.get('/dev', function(req,res){
 
 
 app.listen(port, localhost, function(){
-  console.log("Server Status: Functional");
+  console.log("Server Status: Functional. Server connection at 127.0.0.1:1234");
 })

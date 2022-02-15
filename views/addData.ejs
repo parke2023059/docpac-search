@@ -5,33 +5,54 @@
     <title>Add Data</title>
   </head>
   <body>
-    <form action="/" method="get">
-      <input type="submit" name="" value="Home Page">
-    </form>
+
     <form method="post">
-    <h1>Date</h1>
-      <input type="text" name="" placeholder="Date...feb15">
-    <h1>Goals</h1>
-      <input type="text" name="" placeholder="Goals..." size="100">
-    <h1>Included Documentation</h1>
-    <select class="" name="">
+      <h1>Date</h1>
+      <input type="text" name="date" placeholder="Date...feb15">
+
+
+      <h1>Goals</h1>
+      <br>
+      <input type="text" name="goals" placeholder="Goals..." size="100">
+
+
+      <h1>Included Documentation</h1>
+      <select name="inc_doc_type">
       <option value="printed">Printed</option>
       <option value="download">Download</option>
-    </select>
+      </select>
+
+      <select>
+        <option value="single">Single</option>
+        <option value="pairs">Pairs</option>
+        <option value="teams">Teams</option>
+      </select>
       <br>
-      <input type="text" name="" placeholder="Included Documentation..." size="100">
-    <h1>Required Documentation</h1>
-      <select name="">
+      <input type="text" name="inc_doc" placeholder="Included Documentation..." size="100">
+
+
+      <h1>Required Documentation</h1>
+      <select name="req_doc_type">
         <option value="seen">Must Be Seen</option>
         <option value="printed">Printed</option>
         <option value="download">Download</option>
       </select>
-      <input type="text" name="" placeholder="Included Documentation..." size="100">
-    <h1>Changes</h1>
-      <input type="text" name="" placeholder="Changes...">
-    <h1>Events</h1>
-      <input type="text" name="" placeholder="Events...">
-      <input type="submit" name="" value="Submit">
-    </form>
+      <select>
+        <option value="single">Single</option>
+        <option value="pairs">Pairs</option>
+        <option value="teams">Teams</option>
+      </select>
+      <br>
+      <input type="text" name="req_doc" placeholder="Included Documentation..." size="100">
+
+
+      <h1>Changes</h1>
+      <input type="text" name="changes" placeholder="Changes..." size="100">
+
+
+      <h1>Events</h1>
+      <input type="text" name="events" placeholder="Events..." size="100">
+  </form>
+
   </body>
 </html>

@@ -33,9 +33,16 @@ app.get('/', function(req,res){
   res.render('index.ejs')
 })//homepage
 
-app.get('/getinfo', function(req,res){
+app.get('/getdata', function(req,res){
   res.render('getData.ejs')
 })//this is the page that collects information from docpacs
+
+app.post('/getdata', function(req, res){
+    PRINT msg_str | @local_variable | string_expr  
+});
+
+
+
 
 app.get('/adddata', function(req,res){
   res.render('addData.ejs')
@@ -43,11 +50,15 @@ app.get('/adddata', function(req,res){
 
 app.get('/dates', function(req,res){
   res.render('datesList.ejs')
+
 })//docpac directory
 
 app.get('/dev', function(req,res){
   res.render('dev.ejs')
 })//inputs docpacs to directory
+
+
+
 /*
 app.get('/requiredDocumentation', function(req,res) {
   res.render('ReqDoc.ejs')

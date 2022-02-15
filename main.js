@@ -52,8 +52,21 @@ app.get('/adddata', function(req,res){
 app.post('/adddata', function(req,res) {
   res.render('addData.ejs')
 
-  if (req.body.dates && req.body.goals) {
+  var data = {
+    date: req.body.dates,
+    goals: req.body.goals,
+    inc_doc: req.body.inc_doc,
+    req_doc: req.body.req_doc,
+    changes: req.body.changes
+  }
 
+  if (data.date && data.goals) {
+    db.run(`INSERT INTO goals(Date, Goals) VALUES (?, ?)`, [data.date, `${data.goals}`], (err) => {
+      if (err) {
+        return console.log(err.message);
+      }
+      console.log('data was added to goals in DB template')
+    })
   }
 })
 

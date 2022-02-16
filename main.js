@@ -41,34 +41,87 @@ app.get('/', function(req,res){
   res.render('index.ejs')
 })
 
-app.get('/getinfo', function(req,res){
+app.get('/get_info', function(req,res){
   res.render('getData.ejs')
 })
 
-app.get('/adddata', function(req,res){
+app.get('/add_data', function(req,res){
   res.render('addData.ejs')
 })
 
-app.post('/adddata', function(req,res) {
+app.post('/add_data', function(req,res) {
   res.render('addData.ejs')
-
+  console.log(req.body.people1)
   var data = {
     date: req.body.dates,
     goals: req.body.goals,
     inc_doc: req.body.inc_doc,
     req_doc: req.body.req_doc,
     changes: req.body.changes,
-    events: req.body.events
+    events: req.body.events,
+    person1: req.body.people1,
+    person2: req.body.people2,
+    inc_type: req.body.inc_doc_type,
+    req_type: req.body.req_doc_type,
+    event_type: req.body.events_type,
+    event_due_date: req.body.event_due
   }
 
   if (data.date && data.goals) {
-    db.run(`INSERT INTO goals(Date, Goals) VALUES (?, ?)`, [data.date, `${data.goals}`], (err) => {
+    db.run(`INSERT INTO goals(field1, field2) VALUES (?, ?)`, [data.date, `${data.goals}`], (err) => {
       if (err) {
         return console.log(err.message);
       }
       console.log('data was added to goals in DB template')
     })
   }
+
+  if (data.date && data.inc_doc) {
+    db.run(`INSERT INTO included_doc(field1, field2, field3) VALUES (?, ?, ?)`, [data.date, `${data.inc_type}`, `${data.inc_doc}`], (err) => {
+      if (err) {
+        return console.log(err.message);
+      }
+      console.log('data was added to included_doc in DB template')
+    })
+  }
+
+  if (data.date && data.req_doc) {
+    db.run(`INSERT INTO required_doc(field1, field2, field3) VALUES (?, ?, ?)`, [data.date, `${data.req_type}`, `${data.req_doc}`], (err) => {
+      if (err) {
+        return console.log(err.message);
+      }
+      console.log('data was added to required_doc in DB template')
+    })
+  }
+
+  if (data.date && data.changes) {
+    db.run(`INSERT INTO changes(field1, field2) VALUES (?, ?)`, [data.date, `${data.changes}`], (err) => {
+      if (err) {
+        return console.log(err.message);
+      }
+      console.log('data was added to changes in DB template')
+    })
+  }
+
+  if (data.date && data.events) {
+    db.run(`INSERT INTO events(field1, field2, field3, field4) VALUES (?, ?, ?, ?)`, [data.date, `${data.event_due_date}`, `${data.event_type}`, `${data.events}`], (err) => {
+      if (err) {
+        return console.log(err.message);
+      }
+      console.log('data was added to events in DB template')
+    })
+  }
+
+  // if (data.date && data.inc_doc) {
+  //   db.run(`INSERT INTO inc doc(field1, field2) VALUES (?, ?)`, [data.date, `${data.inc_doc}`], (err) => {
+  //     if (err) {
+  //       return console.log(err.message);
+  //     }
+  //     console.log('data was added to goals in DB template')
+  //   })
+  // }
+
+
 })
 
 app.get('/dates', function(req,res){

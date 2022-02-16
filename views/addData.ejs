@@ -18,14 +18,14 @@
 
       <h1>Included Documentation</h1>
       <select name="inc_doc_type">
-      <option value="printed">Printed</option>
-      <option value="download">Download</option>
+      <option value="Printed">Printed</option>
+      <option value="Download">Download</option>
       </select>
 
-      <select>
-        <option value="single">Single</option>
-        <option value="pairs">Pairs</option>
-        <option value="teams">Teams</option>
+      <select name="people1">
+        <option value="Single">Single</option>
+        <option value="Pairs">Pairs</option>
+        <option value="Teams">Teams</option>
       </select>
       <br>
       <input type="text" name="inc_doc" placeholder="Included Documentation..." size="100">
@@ -33,14 +33,14 @@
 
       <h1>Required Documentation</h1>
       <select name="req_doc_type">
-        <option value="seen">Must Be Seen</option>
-        <option value="printed">Printed</option>
-        <option value="download">Download</option>
+        <option value="Seen">Must Be Seen</option>
+        <option value="Printed">Printed</option>
+        <option value="Download">Download</option>
       </select>
-      <select>
-        <option value="single">Single</option>
-        <option value="pairs">Pairs</option>
-        <option value="teams">Teams</option>
+      <select name="people2">
+        <option value="Single">Single</option>
+        <option value="Pairs">Pairs</option>
+        <option value="Teams">Teams</option>
       </select>
       <br>
       <input type="text" name="req_doc" placeholder="Included Documentation..." size="100">
@@ -51,6 +51,13 @@
 
 
       <h1>Events</h1>
+      <select name="events_type">
+        <option value="Due">Due</option>
+        <option value="Lesson">Lesson</option>
+        <option value="Review">Review</option>
+        <option value="Misc.">Misc.</option>
+      </select>
+      <input type="text" name="event_due" placeholder="event date" size="100">
       <input type="text" name="events" placeholder="Events..." size="100">
       <br>
       <input type="submit" name="submit" value="submit">

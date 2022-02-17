@@ -38,7 +38,7 @@ app.get('/getdata', function(req,res){
 })//this is the page that collects information from docpacs
 
 app.post('/getdata', function(req, res){
-    PRINT msg_str | @local_variable | string_expr  
+    res.redirect('/')
 });
 
 

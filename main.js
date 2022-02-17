@@ -39,15 +39,22 @@ conversion('changes.csv', 'changes.json')
 
 app.get('/', function(req,res){
   res.render('index.ejs')
-})
+})//homepage
 
 app.get('/get_info', function(req,res){
   res.render('getData.ejs')
-})
+})//this is the page that collects information from docpacs
+
+app.post('/getdata', function(req, res){
+    res.redirect('/')
+});
+
+
+
 
 app.get('/add_data', function(req,res){
   res.render('addData.ejs')
-})
+})//where you write to *something*
 
 app.post('/add_data', function(req,res) {
   res.render('addData.ejs')
@@ -132,6 +139,9 @@ app.get('/dates', function(req,res){
 app.get('/dev', function(req,res){
   res.render('dev.ejs')
 })
+*/
+
+
 
 /*app.post('/dev', function(req,res){
   const inData = req.body.addDate
